@@ -10,3 +10,59 @@ ol,ul{
 a{
     text-decoration: none;
 }
+.header{
+    background: #000;
+    height: 100vh;
+}
+.container{
+    margin: 0px 60px;
+}
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+}
+.nav-item{
+    font-family: TTNormsMedium;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.lenguage{
+    display: flex;
+    margin-right: 20px;
+}
+.lenguage-button{
+     font-family: TTNormsBold;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 5px 6px;
+    border-radius: 8px;
+}
+.lenguage-button:hover{
+    padding: 5px 6px;
+    border-radius: 8px;
+    background-color: #F0145A;
+
+}
+.location-item{
+    font-family: TTNormsRegular;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.number{
+    font-family: TTNormsBold;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 26px;
+}
+
